@@ -1,9 +1,9 @@
 {
-  "name": "mat-select-filter",
-  "version": "2.4.1",
+  "name": "@expaso/mat-select-filter",
+  "version": "2.5.0",
   "peerDependencies": {
-    "@angular/common": ">=9.0.0 <14.0.0",
-    "@angular/core": ">=9.0.0 <14.0.0"
+    "@angular/common": ">=9.0.0 <17.0.0",
+    "@angular/core": ">=9.0.0 <17.0.0"
   },
   "main": "bundles/mat-select-filter.umd.js",
   "module": "fesm5/mat-select-filter.js",
@@ -42,9 +42,13 @@
     "dropdown"
   ],
   "author": "Max Livingston",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mdlivingston/mat-select-filter/issues"
   },
-  "homepage": "https://github.com/mdlivingston/mat-select-filter#readme"
+  "homepage": "https://github.com/mdlivingston/mat-select-filter#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
