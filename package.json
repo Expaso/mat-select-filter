@@ -1,9 +1,12 @@
 {
   "name": "@expaso/mat-select-filter",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "peerDependencies": {
     "@angular/common": ">=9.0.0 <17.0.0",
-    "@angular/core": ">=9.0.0 <17.0.0"
+    "@angular/core": ">=9.0.0 <17.0.0",
+    "@angular/forms": ">=9.0.0 <17.0.0",
+    "@angular/cdk": ">=9.0.0 <17.0.0",
+    "@angular/material": ">=9.0.0 <17.0.0"
   },
   "main": "bundles/mat-select-filter.umd.js",
   "module": "fesm5/mat-select-filter.js",
@@ -46,9 +49,5 @@
   "bugs": {
     "url": "https://github.com/mdlivingston/mat-select-filter/issues"
   },
-  "homepage": "https://github.com/mdlivingston/mat-select-filter#readme",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "homepage": "https://github.com/mdlivingston/mat-select-filter#readme"
 }
